@@ -15,7 +15,8 @@
     "semver",
     "parse",
     "parser",
-    "satisifies"
+    "satisifies",
+    "delta"
   ],
   "scripts": {
     "build": "gulp build",
