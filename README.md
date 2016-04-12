@@ -8,10 +8,15 @@
 [![Deps][david-image]][david-url]
 [![Dev Deps][david-dev-image]][david-dev-url]
 
-DESCRIPTION!!!!
+A library of version number functions.
 
 ## Features
 
+* Version parsing
+* Version comparison
+* Sorting (ascending and descending)
+* Delta comparison
+* Configurable LRU cache
 * Written in ES2015
 * Support for Node.js 4 and newer
 
@@ -22,7 +27,7 @@ DESCRIPTION!!!!
 ## Usage
 
 ```javascript
-import * as version from 'versionlib';
+import Version, * as version from 'versionlib';
 // or require('versionlib');
 ```
 
